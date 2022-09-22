@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://images.alphacoders.com/257/257871.jpg');
+    color: aliceblue;
+    text-align: center;
+    margin: 60px;
+}
+
+h1 {
+    background: rgb(49, 78, 133);
+    margin-right: 550px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+section {
+    background: rgb(29, 60, 117);
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+
+input {
+    margin: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#botao {
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+
+#botao:hover {
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#resultado {
+    padding: 20px;
+}
+
+.rodape {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    background: rgba(29, 60, 117, 0.966);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 80px;
+    color: rgb(243, 233, 233);
+    padding: 20px 15px 5px 15px;
+    font-weight: 800;
+}
+
+.rodape img {
+    max-height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
